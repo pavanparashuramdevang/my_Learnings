@@ -1,0 +1,2 @@
+we are writing to file from fprintf
+the file is text.txt
