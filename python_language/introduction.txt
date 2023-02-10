@@ -1,0 +1,23 @@
+in this i'm going to refresh my knowledge on python and specially object oriented python 
+and design pattern using python
+
+it consists of three parts 
+basic structured python
+object oriented python
+advanced object oriented design patterns
+
+
+for basic i'm refering python for everybody by dr.Chuck
+
+for object oriented python i'm refering python 3 object-oriented programming by Dusty Phillips
+
+for advanced design pattern i'm refering Practical Python design patterns by wessel badenhorst
+
+I've alraedy read all those books atleast once. no means I'm an expert if you want detailed explanation
+just go through the book by yourself 
+
+There are several books which are more advanced but for me these are enough I think
+
+
+
+most of the concepts interchange and merge in all three different directories
