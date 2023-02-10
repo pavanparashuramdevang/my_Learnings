@@ -66,3 +66,6 @@ print("hello world")
 #you can check type by printing type(object) on to screen example
 
 print(type(3))
+
+#it prints <class 'int'> that shows everything in python is belongs to certain class
+
