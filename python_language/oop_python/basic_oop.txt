@@ -1,0 +1,19 @@
+basically in this section I'm going to refer book named
+
+python 3 object-oriented programming by Dusty Phillips
+
+
+in this book there are chapter explaining design pattern but I'm not going to explain those in this 
+section I have made a dedicated section for explaining the object oriented programming so I think
+its best explained there with in depth explanation and examples 
+
+
+The chapters here are provides indepth explaination about all the required object oriented concepts 
+related to python and how tho use them 
+
+There are also chapters explaining testing 
+
+There are about 10 chapters excluding all the design pattern based chapter 
+I don't think those really affect like for this section you don't need to know about 
+design pattern, this is seperate 
+

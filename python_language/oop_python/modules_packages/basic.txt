@@ -1,0 +1,129 @@
+you can see in the previous introduction we have impoted a package named math
+and we use the methods and functions defined in their to do some computation
+
+
+we will learn about how to orgaize those in python
+
+
+modules -> these are simply python files 
+
+    consider a python file calculator.py which is in the same directory 
+    we can import it into our file just by specifying the name 
+
+
+import calculator
+    
+    which import all the functions and methods in that file to working files
+    we can access and use all the functions 
+
+
+There are three main way of importing a module into your python file
+Consider you have a file named calculator and in that file you have functions like addition 
+subtraction and multiplication
+
+
+import module_name
+    the above is simple form where you need to specify filename first and using dot operator you can 
+    access the functions for example in your working file you need to write program as follows
+            import calculator
+
+            a=calculator.add(1,2)  
+
+                you can see you need to use module name before dot everytime while accessing the functions
+
+from module_name import function_name
+    I have written function_name name that may be anything module,data etc
+    to use this you don't need to specify module name 
+    dot operator is not required
+
+            from calculator import subtraction
+
+            a=subtraction(1,2)
+
+                which directly provides the answer
+
+
+    the one problem in this type is same function_name 
+    consider there already a subtraction function in working file
+
+    we can also solve that by aliasing like
+
+            from calculator import subtraction as sub
+            
+            a=sub(2,4)
+
+                though a function exists in file of similer name we can aliase them and make those differnt
+
+from module_name import function1_name,function2_name
+
+    the above is similer and using comma operator we can  import multiple function at a same time
+
+from module_name import * 
+
+    the above is not recomended as it causes some serious problems in namespace
+    if similer names exists so pleas don't use it 
+
+
+
+
+#################################################################################################
+
+modules are python files 
+
+then we get the question like if python files can be orgrnized into folders
+the same is true 
+
+you can say python package is a collection of modules/files
+
+
+you may thinking that you can make a folder and you can import module from that 
+OK thats true but you need to do one simple step 
+
+creating a   __init__.py   file in the folder
+
+which tells the interpreter consider this folder as package
+
+
+we can import package in two ways obsolute way  and relative way
+
+consider a file structure
+
+
+parent_directory/
+    main.py 
+    ecommerce/
+        __init__.py
+        database.py
+        products.py
+        calculator.py
+        payments/
+            __init__.py
+            stripe.py
+            square.py
+
+from main.py we need to import subtraction function we use . dot notation to distinguish the hierarchy
+
+Absolute import 
+    import ecommerce.calculator
+
+    sub_value=ecommerce.calculator.subtraction(4,5)
+
+or
+    from ecommerce.calculator import subtraction
+
+    sub_value=subtraction(4,5)
+
+or
+    from ecommerce import calculator
+
+    sub_value=calculator.subtraction(4,5)
+
+
+
+Relative imports
+
+    from .calculator import subtraction
+    sub_value=subtraction(4,5)
+
+
+    
