@@ -1,0 +1,49 @@
+:root{
+    --main_color:#8c6cf5;
+    --body_white:#f6f3ed
+    }
+
+body{
+    background-color:var(--body_white);
+}
+    
+
+    
+#company{
+    font-family:sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    border: var(--main_color);
+    border-radius: 2cm;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #f6f3ed;
+
+    background-color: var(--main_color);
+}
+
+#login_form{
+    background-color: wheat;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1cm;
+    border-color: #8c6cf5;
+    text-align: center;
+    font-size: large;
+    
+}
+
+input{
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+
+#login [type=submit]{
+    background-color: #33cc33;
+    
+}
+
+#login [type=submit]:hover{
+    background-color: #15b6e7d9;
+}
